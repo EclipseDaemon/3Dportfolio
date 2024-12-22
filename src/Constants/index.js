@@ -148,51 +148,35 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
-    description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
-  },
-  {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
-  },
-  {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Car Inventory System",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "This is a full-stack web application for managing a car inventory. The application allows users to add, view, and delete car entries. The frontend is built with React, and the backend is powered by Express.js, with data stored in MongoDB Atlas.",
+    link: "https://github.com/EclipseDaemon/RevUpYourcar",
+  },
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-red",
+    name: "Movie-Browsing-and-Favorites-App",
+    description:
+      "This web application allows users to browse a curated list of popular movies, search for specific movies, and select their favorite movies. The application saves the user's selected movies in local storage, ensuring that favorites persist across sessions.",
+    link: "https://github.com/EclipseDaemon/Movie-Browsing-and-Favorites-App",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "LinkedIn Reply AI",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "LinkedIn Reply AI is a Chrome extension that helps users quickly generate and insert replies into LinkedIn messages with ease.",
+    link: "https://github.com/EclipseDaemon/LinkedInReplyAI",
   },
   {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
+    iconUrl: threads,
+    theme: "btn-back-green",
+    name: "Forecast App",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "A responsive weather application built using React that allows users to fetch real-time weather data for any city. This project uses the OpenWeatherMap API to display current temperature, humidity, wind speed, and other weather-related information.",
+    link: "https://github.com/EclipseDaemon/WeatherApp",
   },
 ];
